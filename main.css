@@ -1095,5 +1095,15 @@ footer li:hover {
         display: block;
     }
 
+    .gallery__images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery__images img {
+        width: 300px;
+        height: 300px;
+    }
 
 }
