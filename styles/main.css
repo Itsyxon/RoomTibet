@@ -91,7 +91,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 985px;
-    background-image: url(/images/back.jpeg);
+    background-image: url(images/back.jpeg);
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -187,7 +187,7 @@ nav .main-btn {
 
 
 .white_arrow {
-    content: url(/images/ep_arrow-down.png);
+    content: url(images/ep_arrow-down.png);
     position: absolute;
     top: 16px;
     right: 16px;
@@ -198,7 +198,7 @@ nav .main-btn {
 }
 
 .white_calendar {
-    content: url(/images/formkit_date.png);
+    content: url(images/formkit_date.png);
     position: absolute;
     top: 16px;
     right: 16px;
@@ -509,15 +509,15 @@ nav .main-btn {
 }
 
 .pop1 {
-    background-image: url(/images/pop1.jpeg);
+    background-image: url(images/pop1.jpeg);
 }
 
 .pop2 {
-    background-image: url(/images/pop2.jpeg);
+    background-image: url(images/pop2.jpeg);
 }
 
 .pop3 {
-    background-image: url(/images/pop3.jpeg);
+    background-image: url(images/pop3.jpeg);
 }
 
 .popular-btn {
@@ -785,14 +785,14 @@ footer ul {
 footer li {
     font-size: 14px;
     margin-bottom: 16px;
-    list-style-image: url(/images/list-item.png);
+    list-style-image: url(images/list-item.png);
     transition: .3s all;
 }
 
 footer li:hover {
     color: #F2BE22;
     cursor: pointer;
-    list-style-image: url(/images/list-item\ yellow.png);
+    list-style-image: url(mages/list-item\ yellow.png);
 
 }
 
@@ -1072,13 +1072,13 @@ footer li:hover {
         font-size: 14px;
         margin-bottom: 16px;
         margin-left: 16px;
-        list-style-image: url(/images/list-item.png);
+        list-style-image: url(images/list-item.png);
         transition: .3s all;
     }
 
     .nav__list-mobile li:hover {
         cursor: pointer;
-        list-style-image: url(/images/list-item\ yellow.png);
+        list-style-image: url(images/list-item\ yellow.png);
     }
 
     .nav__list-mobile li a:hover {
