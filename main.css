@@ -791,7 +791,7 @@ footer li {
 footer li:hover {
     color: #F2BE22;
     cursor: pointer;
-    list-style-image: url(mages/list-item\ yellow.png);
+    list-style-image: url(images/list-item-yellow.png);
 
 }
 
