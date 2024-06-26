@@ -505,7 +505,6 @@ nav .main-btn {
     color: #FDFDFD;
     font-weight: 700;
     border-radius: 4px;
-
 }
 
 .pop1 {
@@ -944,6 +943,10 @@ footer li:hover {
         width: 320px;
     }
 
+    .popular__content-block__price {
+        font-size: 16px;
+    }
+
     .form__input {
         flex-direction: column;
     }
@@ -954,7 +957,7 @@ footer li:hover {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .container {
         max-width: 358px;
         margin: auto;
