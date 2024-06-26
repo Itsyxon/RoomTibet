@@ -2,21 +2,21 @@
 
 @font-face {
     font-family: 'Next Art';
-    src: url(../fonts/NEXT\ ART_Regular.otf) format('otf');
+    src: url(../fonts/NEXT_ART_Regular.otf) format('otf');
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Next Art';
-    src: url(../fonts/NEXT\ ART_SemiBold.otf) format('otf');
+    src: url(../fonts/NEXT_ART_SemiBold.otf) format('otf');
     font-style: normal;
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Next Art';
-    src: url(../fonts/NEXT\ ART_Bold.otf) format('otf');
+    src: url(../fonts/NEXT_ART_Bold.otf) format('otf');
     font-style: normal;
     font-weight: 700;
 }
@@ -1081,7 +1081,7 @@ footer li:hover {
 
     .nav__list-mobile li:hover {
         cursor: pointer;
-        list-style-image: url(images/list-item\ yellow.png);
+        list-style-image: url(images/list-item-yellow.png);
     }
 
     .nav__list-mobile li a:hover {
