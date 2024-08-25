@@ -2,23 +2,9 @@
 
 @font-face {
     font-family: 'Next Art';
-    src: url(../fonts/NEXT_ART_Regular.otf) format('otf');
+    src: url(fonts/NEXT_ART_Regular.otf) format('otf');
     font-style: normal;
     font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Next Art';
-    src: url(../fonts/NEXT_ART_SemiBold.otf) format('otf');
-    font-style: normal;
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: 'Next Art';
-    src: url(../fonts/NEXT_ART_Bold.otf) format('otf');
-    font-style: normal;
-    font-weight: 700;
 }
 
 * {
@@ -53,16 +39,16 @@ h6 {
     font-size: 16px;
     padding: 12px 24px;
     border-radius: 4px;
-    border: none;
     color: #FDFDFD;
     cursor: pointer;
-    transition: .3s all;
+    /* transition: background .3s; */
+    border: 1px solid transparent !important;
 }
 
 .main-btn:hover {
     color: #1A3E3E;
     background: #FDFDFD;
-    border: 1px solid #1A3E3E;
+    border: 1px solid #1A3E3E !important;
 }
 
 .mobile-menu {
@@ -242,7 +228,7 @@ nav .main-btn {
     color: #1A3E3E;
     font-size: 16px;
     font-weight: 700;
-    border: none;
+    border: 1px solid transparent !important;
     border-radius: 4px;
     cursor: pointer;
     transition: .3s all;
@@ -256,6 +242,7 @@ nav .main-btn {
 .program__form-btn:hover {
     background: #1A3E3E;
     color: #FDFDFD;
+    border: 1px solid #1A3E3E !important;
 }
 
 #found {
@@ -382,7 +369,7 @@ nav .main-btn {
     font-size: 16px;
     padding: 16px 36px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid transparent !important;
     color: #FDFDFD;
     cursor: pointer;
     align-self: flex-start;
@@ -392,7 +379,7 @@ nav .main-btn {
 .programs-btn:hover {
     background: #FDFDFD;
     color: #1A3E3E;
-    border: 1px solid #1A3E3E;
+    border: 1px solid #1A3E3E !important;
 }
 
 
@@ -525,10 +512,11 @@ nav .main-btn {
     font-size: 16px;
     padding: 16px 36px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid transparent !important;
     color: #FDFDFD;
     cursor: pointer;
     transition: .3s all;
+
 }
 
 #blog {
@@ -614,7 +602,7 @@ nav .main-btn {
     font-size: 16px;
     padding: 16px 36px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid transparent !important;
     color: #FDFDFD;
     cursor: pointer;
     align-self: center;
@@ -627,7 +615,7 @@ nav .main-btn {
 .popular-btn:hover {
     background: #FDFDFD;
     color: #1A3E3E;
-    border: 1px solid #1A3E3E;
+    border: 1px solid #1A3E3E !important;
 }
 
 #gallery {
@@ -660,9 +648,9 @@ nav .main-btn {
     font-size: 16px;
     padding: 16px 36px;
     border-radius: 4px;
-    border: none;
     color: #FDFDFD;
     cursor: pointer;
+    border: 1px solid transparent !important;
     margin-top: 50px;
     transition: .3s all;
 }
@@ -708,8 +696,8 @@ nav .main-btn {
     font-size: 16px;
     padding: 12px 24px;
     border-radius: 4px;
-    border: none;
     color: #FDFDFD;
+    border: 1px solid transparent !important;
     cursor: pointer;
     transition: .3s all;
 }
@@ -717,7 +705,7 @@ nav .main-btn {
 .contact__block button:hover {
     background: #FDFDFD;
     color: #1A3E3E;
-    border: 1px solid #1A3E3E;
+    border: 1px solid #1A3E3E !important;
 }
 
 
@@ -785,14 +773,13 @@ footer li {
     font-size: 14px;
     margin-bottom: 16px;
     list-style-image: url(images/list-item.png);
-    transition: .3s all;
+    transition: color .3s;
 }
 
 footer li:hover {
     color: #F2BE22;
     cursor: pointer;
     list-style-image: url(images/list-item-yellow.png);
-
 }
 
 .nav__list-mobile {
@@ -1076,7 +1063,7 @@ footer li:hover {
         margin-bottom: 16px;
         margin-left: 16px;
         list-style-image: url(images/list-item.png);
-        transition: .3s all;
+        transition: color .3s;
     }
 
     .nav__list-mobile li:hover {
